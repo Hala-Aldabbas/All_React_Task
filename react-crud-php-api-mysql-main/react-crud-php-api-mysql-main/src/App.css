@@ -1,0 +1,70 @@
+*{
+   background-color: beige;
+}
+.App {
+  text-align: center;
+ 
+}
+
+nav ul {
+  list-style: none;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px; 
+  font-size: 24px;
+  
+}
+li{
+  text-decoration: none;
+}
+.tab{
+ width: 50%;
+ margin: auto;
+
+}
+
+.tab1{
+  width: 70%;
+  margin: auto;
+ font-size: 24px;
+
+ }
+
+label{
+  font-size: 2em;
+  margin-left:100px;
+}
+input{
+  padding: 15px;
+  width: 300px;
+  background-color: white;
+  font-size: 18px;
+}
+.btn{
+margin-right: 130px;
+padding: 12px;
+background-color: blue;
+color: white;
+font-size: 24px;
+}
+
+.btn1{
+color: white;
+font-size: 24px;
+
+}
+.btn1 button{
+  margin-left: 20px;
+}
+.btn2{
+  margin-left: 100px;
+  background-color: green;
+color: white;
+padding: 10px;
+text-decoration: none;
+font-size: 24px;
+border: 1px solid black;
+}

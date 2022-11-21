@@ -1,0 +1,172 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: #f7f7f7;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  background-color: #211f8e;
+  box-sizing: border-box;
+  padding: 50px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+/* Header */
+.top{
+  width: 50%;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 70px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.logo-image {
+  width: 70px;
+  height: 70px;
+  margin-right: 50px;
+}
+
+.balance{
+  line-height: 1.5px;
+  text-align: center;
+
+}
+
+/* Balance */
+
+.balance {
+
+  line-height: 0.5px;
+  text-align: center;
+}
+.balance p {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+/* Income & Expense */
+
+.income-expense {
+  margin-top: -20px;
+ 
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 10px;
+  background-color: #2cafdb;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.income {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+}
+.income h4 {
+  color: #211f8e;
+}
+.expense {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.expense h4 {
+  color: red;
+}
+
+/* Transaction */
+
+.transaction {
+  width: 100%;
+}
+
+
+/* Transaction List */
+
+.transaction-list {
+  box-sizing: border-box;
+  background-color: #2cafdb;
+  border-radius: 5px;
+
+}
+.transaction-list .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  height: 30px;
+}
+.transaction-list .list-item-history {
+  color: #211f8e;
+  font-weight: 700;
+  font-size: 24px;
+}
+.transaction-list .list-item-history .description {
+  margin-right: 8px;
+}
+.list-item-actions{
+  display: flex;
+  cursor: pointer;
+}
+.transaction-list .list-item-actions .delete {
+  margin-right: 8px;
+  color: red;
+  font-size: 20px;
+}
+.transaction-list .list-item-actions .update {
+  margin-right: 8px;
+  color: green;
+  font-size: 20px;
+}
+
+
+/* Add Transaction */
+
+.add-transaction {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #2cafdb;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+}
+.add-transaction form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 160px;
+}
+.add-transaction input {
+  padding: 15px;
+  border: none;
+  margin: 10px;
+}
+.add-transaction input[type="submit"] {
+  background-color: #211f8e;
+  color: white;
+  font-weight: bolder;
+
+ width: 30%;
+ margin: auto;
+}
